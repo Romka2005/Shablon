@@ -26,7 +26,8 @@
     text-decoration: none;
     color: white;
     margin-right: 20px;
-    transition: all 1s ;
+    font-family: 'Fjalla One', sans-serif;
+    transition: all 0.5s ;
 }
 .box_header2{
     padding: 150px 0;
@@ -45,7 +46,8 @@
 }
 .knopka{
     margin-top: 80px;
-
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
 }
 .knopka a{
     text-decoration: none;
@@ -132,6 +134,10 @@
 .icon_footer img{
     width: 30px;
     padding: 0 15px;
+    transition: 0.5s;
+}
+.icon_footer img:hover{
+    width: 40px;
 }
 .box_footer2 p {
     font-family: 'Fjalla One', sans-serif;
